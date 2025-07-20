@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0eef7;
+}
+
+.quotes {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #c5c5c5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(39, 1, 66);
+    position: relative;
+    color: rgb(1, 27, 19);
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 47, 255);
+    font-size: 20;
+}
+
+.quote-id {
+    position: absolute;
+    display: flex;
+    background-color: rgb(90, 87, 87);
+    color: white;
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    top: -5%;
+    transform: translateX(-50%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.quote-display{
+   padding: 20px; 
+   margin-bottom: 20px;
+   line-height: 1.0;
+   text-align: center;
+   border-bottom: 2px solid rgba(20, 20, 20, 0.856);
+   position: relative;
+   max-height: 200px;
+   font-size: 25px;
+}
+
+.quote-display::before,
+.quote-display::after{
+    font-size: 30px;
+    position: absolute;
+    color: #0f0fbe;
+}
+.quote-display::before{
+    content: ",,";
+    top: 0;
+    left: 0;
+}
+.quote-display::after{
+    content: ",,";
+    bottom: 0;
+    right: 0;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.buttons button{
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+}
+.generate{
+    background-color: rgb(8, 168, 8);
+}
+.auto{
+    background-color: blue;
+}
+.stop{
+    background-color: red;
+}
+.outo-status{
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(7, 43, 7);
+}
+
+
+
+
+
+
+
+
+
